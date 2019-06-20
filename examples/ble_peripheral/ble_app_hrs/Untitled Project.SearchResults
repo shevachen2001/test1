@@ -1,0 +1,5 @@
+---- sys_CheckGetDynamicFlat Matches (4 in 3 files) ----
+Encpt.c (d:\work\lock1\soft\nrf51822_udf_abroad_ppi_release\dahao\encpt):	uint8 sys_CheckGetDynamicFlat(uint8* pDeviceId, uint8* pDevicePassword, uint8* pTouchKey)
+Encpt.c (d:\work\lock1\soft\nrf51822_udf_abroad_ppi_release\dahao\encpt):uint8 sys_CheckGetDynamicFlat(uint32 DeviceId, uint32 DevicePassword, uint8* pTouchKey, uint8  length)
+Encpt.h (d:\work\lock1\soft\nrf51822_udf_abroad_ppi_release\dahao\encpt):extern uint8 sys_CheckGetDynamicFlat(uint32 DeviceId, uint32 DevicePassword, uint8* pTouchKey, uint8  length);
+Touch.c (d:\work\lock1\soft\nrf51822_udf_abroad_ppi_release\dahao\key):				ret = sys_CheckGetDynamicFlat(Sys_PataCfg.Mac, Sys_PataCfg.Pswd, pTouchKey, lenth);

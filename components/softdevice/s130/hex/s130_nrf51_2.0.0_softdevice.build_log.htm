@@ -1,0 +1,226 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.18a
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: lxw Administrator, lxw, LIC=TIVEV-PCE3P-H81FS-L8YQU-ST45W-GQ32U
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18a
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      Segger\JL2CM3.dll V2.99.19.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+E:\item\NRF51822_UDF_LORA_FLASH\examples\ble_peripheral\ble_app_hrs\pca10028\s130_with_dfu\arm5_no_packs\ble_app_hrs_s130_with_dfu_pca10028.uvprojx
+Project File Date:  06/29/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'flash_s130_nrf51_2.0.0_softdevice'
+compiling nrf_drv_spi.c...
+..\..\..\..\..\..\components\drivers_nrf\spi_master\nrf_drv_spi.h(27): error:  #5: cannot open source input file "nordic_common.h": No such file or directory
+  #include "nordic_common.h"
+..\..\..\..\..\..\components\drivers_nrf\spi_master\nrf_drv_spi.c: 0 warnings, 1 error
+compiling nrf_drv_timer.c...
+..\..\..\..\..\..\components\drivers_nrf\timer\nrf_drv_timer.h(29): error:  #5: cannot open source input file "nordic_common.h": No such file or directory
+  #include "nordic_common.h"
+..\..\..\..\..\..\components\drivers_nrf\timer\nrf_drv_timer.c: 0 warnings, 1 error
+compiling ble_dahao.c...
+..\..\..\..\..\..\components\ble\ble_services\ble_dahao\ble_dahao.h(7): error:  #5: cannot open source input file "PUBLIC\Std_Types.h": No such file or directory
+  #include "PUBLIC\Std_Types.h"
+..\..\..\..\..\..\components\ble\ble_services\ble_dahao\ble_dahao.c: 0 warnings, 1 error
+compiling nrf_drv_adc.c...
+..\..\..\..\..\..\components\drivers_nrf\adc\nrf_drv_adc.h(13): error:  #5: cannot open source input file "nrf_adc.h": No such file or directory
+  #include "nrf_adc.h"
+..\..\..\..\..\..\components\drivers_nrf\adc\nrf_drv_adc.c: 0 warnings, 1 error
+compiling nrf_adc.c...
+d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51.h(119): error:  #5: cannot open source input file "core_cm0.h": No such file or directory
+  #include "core_cm0.h"                               /*!< Cortex-M0 processor and core peripherals                              */
+..\..\..\..\..\..\components\drivers_nrf\hal\nrf_adc.c: 0 warnings, 1 error
+compiling nrf_drv_ppi.c...
+d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51.h(119): error:  #5: cannot open source input file "core_cm0.h": No such file or directory
+  #include "core_cm0.h"                               /*!< Cortex-M0 processor and core peripherals                              */
+..\..\..\..\..\..\components\drivers_nrf\ppi\nrf_drv_ppi.c: 0 warnings, 1 error
+compiling crc32.c...
+compiling app_pwm.c...
+..\..\..\..\..\..\components\libraries\pwm\app_pwm.h(37): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+..\..\..\..\..\..\components\libraries\pwm\app_pwm.c: 0 warnings, 1 error
+compiling Lock_Commu.c...
+..\..\..\..\..\..\dahao\Commu\Lock_Commu.c(2): error:  #5: cannot open source input file "COMMU\Lock_Commu.h": No such file or directory
+  #include "COMMU\Lock_Commu.h"
+..\..\..\..\..\..\dahao\Commu\Lock_Commu.c: 0 warnings, 1 error
+compiling nrf_ecb.c...
+d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51.h(119): error:  #5: cannot open source input file "core_cm0.h": No such file or directory
+  #include "core_cm0.h"                               /*!< Cortex-M0 processor and core peripherals                              */
+..\..\..\..\..\..\components\drivers_nrf\hal\nrf_ecb.c: 0 warnings, 1 error
+compiling ecb_block_encrypt.c...
+..\..\..\..\..\..\components\serialization\application\codecs\s130\serializers\nrf_soc_app.h(36): error:  #5: cannot open source input file "nrf_soc.h": No such file or directory
+  #include "nrf_soc.h"
+..\..\..\..\..\..\components\serialization\application\codecs\s130\serializers\ecb_block_encrypt.c: 0 warnings, 1 error
+compiling ble_serialization.c...
+..\..\..\..\..\..\components\serialization\common\ble_serialization.h(16): error:  #5: cannot open source input file "nordic_common.h": No such file or directory
+  #include "nordic_common.h"
+..\..\..\..\..\..\components\serialization\common\ble_serialization.c: 0 warnings, 1 error
+compiling cond_field_serialization.c...
+..\..\..\..\..\..\components\serialization\common\cond_field_serialization.c(1): error:  #5: cannot open source input file "nrf_error.h": No such file or directory
+  #include "nrf_error.h"
+..\..\..\..\..\..\components\serialization\common\cond_field_serialization.c: 0 warnings, 1 error
+compiling nrf_soc_struct_serialization.c...
+..\..\..\..\..\..\components\serialization\common\struct_ser\s130\nrf_soc_struct_serialization.h(13): error:  #5: cannot open source input file "nrf_soc.h": No such file or directory
+  #include "nrf_soc.h"
+..\..\..\..\..\..\components\serialization\common\struct_ser\s130\nrf_soc_struct_serialization.c: 0 warnings, 1 error
+compiling Sys.c...
+..\..\..\..\..\..\dahao\SYSTEM\Sys.c(31): error:  #5: cannot open source input file "SYSTEM\sys.h": No such file or directory
+  #include "SYSTEM\sys.h"
+..\..\..\..\..\..\dahao\SYSTEM\Sys.c: 0 warnings, 1 error
+compiling Event.c...
+..\..\..\..\..\..\dahao\EVENT\..\EVENT\Event.h(26): error:  #5: cannot open source input file "EVENT\Event_Cfg.h": No such file or directory
+  #include"EVENT\Event_Cfg.h"
+..\..\..\..\..\..\dahao\EVENT\Event.c: 0 warnings, 1 error
+compiling Sys_GenFun.c...
+..\..\..\..\..\..\dahao\SYSTEM\Sys_GenFun.c(30): error:  #5: cannot open source input file "SYSTEM\Sys_GenFun.h": No such file or directory
+  #include"SYSTEM\Sys_GenFun.h"
+..\..\..\..\..\..\dahao\SYSTEM\Sys_GenFun.c: 0 warnings, 1 error
+compiling Sys_TimeBase.c...
+..\..\..\..\..\..\dahao\SYSTEM\Sys_TimeBase.c(33): error:  #5: cannot open source input file "SYSTEM\Sys_TimeBase.h": No such file or directory
+  #include "SYSTEM\Sys_TimeBase.h"
+..\..\..\..\..\..\dahao\SYSTEM\Sys_TimeBase.c: 0 warnings, 1 error
+compiling Sys_TimeBaseIrq.c...
+..\..\..\..\..\..\dahao\SYSTEM\Sys_TimeBaseIrq.c(30): error:  #5: cannot open source input file "SYSTEM\Sys_TimeBase.h": No such file or directory
+  #include"SYSTEM\Sys_TimeBase.h"
+..\..\..\..\..\..\dahao\SYSTEM\Sys_TimeBaseIrq.c: 0 warnings, 1 error
+compiling Beep.c...
+..\..\..\..\..\..\dahao\Beep\Beep.c(33): error:  #5: cannot open source input file "Beep\Beep.h": No such file or directory
+   #include "Beep\Beep.h"
+..\..\..\..\..\..\dahao\Beep\Beep.c: 0 warnings, 1 error
+compiling Pwm.c...
+..\..\..\..\..\..\dahao\Pwm\Pwm.c(33): error:  #5: cannot open source input file "Pwm\Pwm.h": No such file or directory
+  #include "Pwm\Pwm.h"
+..\..\..\..\..\..\dahao\Pwm\Pwm.c: 0 warnings, 1 error
+compiling factInfo.c...
+..\..\..\..\..\..\dahao\Protocol\factInfo.c(29): error:  #5: cannot open source input file "Protocol\factInfo.h": No such file or directory
+  #include"Protocol\factInfo.h"
+..\..\..\..\..\..\dahao\Protocol\factInfo.c: 0 warnings, 1 error
+compiling Proto_NetComm.c...
+..\..\..\..\..\..\dahao\Protocol\Proto_NetComm.c(31): error:  #5: cannot open source input file "protocol\Proto_NetComm.h": No such file or directory
+  #include "protocol\Proto_NetComm.h"
+..\..\..\..\..\..\dahao\Protocol\Proto_NetComm.c: 0 warnings, 1 error
+compiling Proto_Analy.c...
+..\..\..\..\..\..\dahao\Protocol\Proto_Analy.c(29): error:  #5: cannot open source input file "protocol\Proto_Analy.h": No such file or directory
+  #include"protocol\Proto_Analy.h"
+..\..\..\..\..\..\dahao\Protocol\Proto_Analy.c: 0 warnings, 1 error
+compiling Proto_CommPack.c...
+..\..\..\..\..\..\dahao\Protocol\Proto_CommPack.c(30): error:  #5: cannot open source input file "SYSTEM\Sys_GenFun.h": No such file or directory
+  #include 	"SYSTEM\Sys_GenFun.h"
+..\..\..\..\..\..\dahao\Protocol\Proto_CommPack.c: 0 warnings, 1 error
+compiling aes.c...
+..\..\..\..\..\..\dahao\Encpt\aes.c(40): error:  #5: cannot open source input file "PUBLIC\Std_Types.h": No such file or directory
+  #include "PUBLIC\Std_Types.h"
+..\..\..\..\..\..\dahao\Encpt\aes.c: 0 warnings, 1 error
+compiling Encpt.c...
+..\..\..\..\..\..\dahao\Encpt\Encpt.c(35): error:  #5: cannot open source input file "SYSTEM\sys.h": No such file or directory
+  #include "SYSTEM\sys.h"
+..\..\..\..\..\..\dahao\Encpt\Encpt.c: 0 warnings, 1 error
+compiling AesKey.c...
+..\..\..\..\..\..\dahao\Encpt\AesKey.c(2): error:  #5: cannot open source input file "Encpt/Aes.h": No such file or directory
+  #include "Encpt/Aes.h"
+..\..\..\..\..\..\dahao\Encpt\AesKey.c: 0 warnings, 1 error
+compiling Key.c...
+..\..\..\..\..\..\dahao\KEY\Key.c(33): error:  #5: cannot open source input file "KEY\key.h": No such file or directory
+  #include  "KEY\key.h"
+..\..\..\..\..\..\dahao\KEY\Key.c: 0 warnings, 1 error
+compiling Touch.c...
+..\..\..\..\..\..\dahao\KEY\Touch.c(36): error:  #5: cannot open source input file "KEY\key.h": No such file or directory
+  #include  "KEY\key.h"
+..\..\..\..\..\..\dahao\KEY\Touch.c: 0 warnings, 1 error
+compiling TSMxx.c...
+..\..\..\..\..\..\dahao\KEY\Tsmxx.h(9): error:  #5: cannot open source input file "PUBLIC\Std_Types.h": No such file or directory
+  #include"PUBLIC\Std_Types.h"
+..\..\..\..\..\..\dahao\KEY\TSMxx.c: 0 warnings, 1 error
+compiling TSMxx_Irq.c...
+..\..\..\..\..\..\dahao\KEY\Tsmxx.h(9): error:  #5: cannot open source input file "PUBLIC\Std_Types.h": No such file or directory
+  #include"PUBLIC\Std_Types.h"
+..\..\..\..\..\..\dahao\KEY\TSMxx_Irq.c: 0 warnings, 1 error
+compiling Flash_Nrf.c...
+..\..\..\..\..\..\dahao\FLASH\Flash_Nrf.c(34): error:  #5: cannot open source input file "Flash\Flash_Nrf.h": No such file or directory
+  #include "Flash\Flash_Nrf.h"
+..\..\..\..\..\..\dahao\FLASH\Flash_Nrf.c: 0 warnings, 1 error
+compiling Flash.c...
+..\..\..\..\..\..\dahao\FLASH\Flash.c(34): error:  #5: cannot open source input file "Flash\Flash.h": No such file or directory
+  #include "Flash\Flash.h"
+..\..\..\..\..\..\dahao\FLASH\Flash.c: 0 warnings, 1 error
+compiling Rc522.c...
+..\..\..\..\..\..\dahao\Card\Rc522.c(33): error:  #5: cannot open source input file "Card\Rc522.h": No such file or directory
+  #include "Card\Rc522.h"
+..\..\..\..\..\..\dahao\Card\Rc522.c: 0 warnings, 1 error
+compiling LockKey.c...
+..\..\..\..\..\..\dahao\Access\LockKey.c(33): error:  #5: cannot open source input file "SYSTEM\sys.h": No such file or directory
+  #include "SYSTEM\sys.h"
+..\..\..\..\..\..\dahao\Access\LockKey.c: 0 warnings, 1 error
+compiling Access.c...
+..\..\..\..\..\..\dahao\Access\Access.c(34): error:  #5: cannot open source input file "SYSTEM\sys.h": No such file or directory
+  #include "SYSTEM\sys.h"
+..\..\..\..\..\..\dahao\Access\Access.c: 0 warnings, 1 error
+compiling Rtc.c...
+..\..\..\..\..\..\dahao\RTC\Rtc.c(30): error:  #5: cannot open source input file "RTC\Rtc.h": No such file or directory
+  #include "RTC\Rtc.h"
+..\..\..\..\..\..\dahao\RTC\Rtc.c: 0 warnings, 1 error
+compiling I2c_Soft.c...
+..\..\..\..\..\..\dahao\I2C\I2c_Soft.c(29): error:  #5: cannot open source input file "I2C\I2c_Soft.h": No such file or directory
+  #include"I2C\I2c_Soft.h"
+..\..\..\..\..\..\dahao\I2C\I2c_Soft.c: 0 warnings, 1 error
+compiling HC595.c...
+..\..\..\..\..\..\dahao\HC595\HC595.c(1): error:  #5: cannot open source input file "PUBLIC\Std_Types.h": No such file or directory
+  #include"PUBLIC\Std_Types.h"
+..\..\..\..\..\..\dahao\HC595\HC595.c: 0 warnings, 1 error
+compiling Light.c...
+..\..\..\..\..\..\dahao\Light\Light.c(34): error:  #5: cannot open source input file "Light\light.h": No such file or directory
+  #include "Light\light.h"
+..\..\..\..\..\..\dahao\Light\Light.c: 0 warnings, 1 error
+compiling Adc_Nrf.c...
+compiling radio.c...
+compiling sx1276.c...
+compiling sx1276-Hal.c...
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.5.0.pack
+                NordicSemiconductor::Device:Startup:8.5.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.5.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\item\NRF51822_UDF_LORA_FLASH\examples\ble_peripheral\ble_app_hrs\pca10028\s130_with_dfu\arm5_no_packs\RTE
+  d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: NordicSemiconductor::Device:Startup:8.5.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Include file:  Device\Include\system_nrf51.h
+      Source file:   Device\Source\system_nrf51.c
+Project build/rebuild aborted.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
